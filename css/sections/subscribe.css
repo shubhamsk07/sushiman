@@ -1,0 +1,72 @@
+.subscribe {
+
+    background-image: url("/sushi_assets/assets/subscribe_bg.png");
+    background-color: var(--primary-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    flex-direction: column;
+    padding: 64px;
+}
+
+.subscribe h1 {
+    font-size: 88px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    color: #fff;
+    line-height: 123px;
+    text-align: center;
+}
+
+.subscribe p {
+    font-family: var(--plus-jakarta-sans);
+    line-height: 36px;
+    margin-top: 33px;
+    font-weight: 300;
+
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.subscribe-email {
+    margin-top: 35px;
+    display: flex;
+    padding-left: 190px;
+
+
+}
+
+.subscribe-email input {
+    outline: none;
+    border: solid 2px rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    width: 550px;
+    height: 90px;
+    color: white;
+    font-family: var(--plus-jakarta-sans);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 0 0 29px;
+
+    border-radius: 50px;
+}
+
+.subscribe-email button {
+    font-family: var(--plus-jakarta-sans);
+    background-color: var(--black-400);
+    height: 55px;
+    width: 160px;
+    border: 0;
+    outline: none;
+    color: white;
+    text-align: center;
+    padding: 0 18px 0 18px;
+    border-radius: 30px;
+
+    position: relative;
+    right: 180px;
+    top: 18px;
+}
+
+
